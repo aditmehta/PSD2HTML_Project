@@ -13,10 +13,11 @@ grunt.initConfig({
         files: ['*.scss'],
         tasks: ['sass']
       },
-    }
+    },
 });
 
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks("grunt-http-server");
 grunt.registerTask("default", ["sass","watch"]);
 };
