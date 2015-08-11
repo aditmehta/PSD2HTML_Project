@@ -18,11 +18,12 @@ font-family: 'Open Sans', sans-serif;
   top: 50%;
   transform: translateY(-50%);
   }
-  
+
   .vcenter a, {
     &, &:hover  {
       background-color: #8724CD;
       color: #FFFFFF;   
+      text-decoration: none;
     }
   }
 }
