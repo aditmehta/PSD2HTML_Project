@@ -4,13 +4,14 @@ grunt.initConfig({
     sass: {                              // Task 
       dist: {                            // Target 
         files: {                         // Dictionary of files 
-          'styles.css': 'styles.scss'
+          'assets/stylesheets/src/common.css': 'assets/stylesheets/src/common.scss',
+          'assets/stylesheets/src/background.css': 'assets/stylesheets/src/background.scss'
         }
       }
     },
     watch: {
       css: {
-        files: ['*.scss'],
+        files: ['assets/stylesheets/src/*.scss'],
         tasks: ['sass']
       },
     },
@@ -18,6 +19,5 @@ grunt.initConfig({
 
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-watch');
-grunt.loadNpmTasks("grunt-http-server");
 grunt.registerTask("default", ["sass","watch"]);
 };
