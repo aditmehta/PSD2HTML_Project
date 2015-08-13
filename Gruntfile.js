@@ -5,7 +5,7 @@ grunt.initConfig({
       dist: {                            // Target 
         files: {                         // Dictionary of files 
           'assets/stylesheets/src/common.css': 'assets/stylesheets/src/common.scss',
-          'assets/stylesheets/src/background.css': 'assets/stylesheets/src/background.scss'
+          'assets/stylesheets/src/land.css': 'assets/stylesheets/src/land.scss'
         }
       }
     },
@@ -17,14 +17,14 @@ grunt.initConfig({
     },
     //   concat: {
     //   css: {
-    //     src: ['assets/stylesheets/src/common.css', 'assets/stylesheets/src/background.css'],
+    //     src: ['assets/stylesheets/src/common.css', 'assets/stylesheets/src/land.css'],
     //     dest: 'assets/stylesheets/app.css',
     //   },
     // },
       cssmin: {
         target: {
           files: {
-            'assets/stylesheets/app.min.css': ['assets/stylesheets/src/common.css', 'assets/stylesheets/src/background.css']
+            'assets/stylesheets/app.min.css': ['assets/stylesheets/src/common.css', 'assets/stylesheets/src/land.css']
           }
         }
       }
