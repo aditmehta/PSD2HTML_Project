@@ -12,9 +12,16 @@ font-family: 'Open Sans', sans-serif;
   header{
     nav.navbar{
       margin-bottom: 0;
-      background-color: transparent;
       border-width: 0 0 1px 0;
       border-color: rgba(255, 255, 255, 0.10);
+
+      &.affix{
+        background-color: #2e3b4d;
+      }
+
+      &.affix-top{
+        background-color: transparent;
+      }
 
       form{
         input{
@@ -40,18 +47,26 @@ font-family: 'Open Sans', sans-serif;
         }
       }
 
-      &.navbar-default .navbar-nav>li>a {
-      &, &:hover, &:visited, &:link{
-      color: #FFF;
-      border-bottom: 3px solid transparent;
-      transition: border-color 0.2s ease-in;
+          &.navbar-default .navbar-nav>li{
+            a {
+          &, &:hover, &:visited, &:link,{
+          color: #FFF;
+          border-bottom: 3px solid transparent;
+          transition: border-color 0.2s ease-in;
+          background-color: transparent;
 
-      &:hover{
-        border-bottom: 3px solid #FFF;
-          
+          &.active{
+            border-color: #FFFFFF; 
           }
-        }
-      }
+
+          &:hover{
+            border-bottom: 3px solid #FFF;
+              }
+
+
+              }
+            } 
+          }
     }
   }
 

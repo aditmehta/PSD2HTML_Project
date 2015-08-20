@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/stylesheets/app.min.css">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/javascripts/app.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -30,7 +31,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="nav-link-container">
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search Website">
@@ -39,135 +40,135 @@
           </form>
           <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about">About</a></li>
-                <li><a href="#">How It Works</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#works">How It Works</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </header>
-  <section id="land">
-    <div class="vcenter">
-      <div class="container-fluid">
+    <section id="land">
+      <div class="vcenter">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>
+                Designs your eyeballs<br>
+                will thank you for
+                </h2>
+                <a href="#">Get Started Today</a>
+              <div class="meta-info">Lorem ipsum dolor sit amet, consectetur.</div>
+            </div>
+            <div class="col-sm-6 hidden-xs"></div>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <section id="about"> 
+      <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h2>
-              Designs your eyeballs<br>
-              will thank you for
-              </h2>
-              <a href="#">Get Started Today</a>
-            <div class="meta-info">Lorem ipsum dolor sit amet, consectetur.</div>
+            <h3>A Fantastic Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita voluptas ipsam sint et dolorum suscipit ad quasi ullam fuga provident!</p>
           </div>
-          <div class="col-sm-6 hidden-xs"></div>
+          <div class="col-sm-6">
+            <h3>Good Day Blokes</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum voluptatem eum et facilis quos, vero modi sit veritatis quia.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Blaz Robar For President</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis aliquam culpa nemo quas consectetur adipisci facere qui, dolore incidunt.</p>
+          </div>
+          <div class="col-sm-6">
+            <h3>Vote For Robar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quisquam unde quo, ut voluptas animi omnis vitae praesentium possimus placeat.</p>
+          </div>
         </div>
       </div>
-    </div> 
-  </section>
-  <section id="about"> 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h3>A Fantastic Heading</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita voluptas ipsam sint et dolorum suscipit ad quasi ullam fuga provident!</p>
-        </div>
-        <div class="col-sm-6">
-          <h3>Good Day Blokes</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum voluptatem eum et facilis quos, vero modi sit veritatis quia.</p>
+    </section>
+    <section id="about-action">
+      <h2>Wicked &amp; Whack, bang bang boo!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit alias omnis veritatis ipsa necessitatibus voluptatum pariatur, cumque, aperiam id ipsum.</p>
+      <a href="#">Get Started Today</a>
+      </section>
+    </section>
+    <section id="works">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 hidden-xs img-container">
+            <img src="assets/images/work.jpg" alt="How It Works" class="img-responsive">
+          </div>
+          <div class="col-sm-8">
+            <h3>How It Works</h3>
+            <p class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fugit repellendus reprehenderit incidunt laborum, nesciunt vel non quaerat! Accusamus quis, sit consequuntur velit minima numquam eos impedit perferendis eveniet blanditiis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe culpa deleniti repudiandae delectus eius, ea veniam ex excepturi nostrum! Sit sed in dolore! Dolor facere, laboriosam soluta quas. Enim sapiente praesentium ut, repudiandae accusantium et sint, deserunt ullam autem sunt.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h3>Blaz Robar For President</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis aliquam culpa nemo quas consectetur adipisci facere qui, dolore incidunt.</p>
-        </div>
-        <div class="col-sm-6">
-          <h3>Vote For Robar</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quisquam unde quo, ut voluptas animi omnis vitae praesentium possimus placeat.</p>
+    </section>
+    <section id="works_action">
+      <div class="action-container">
+        <h2>Experience the rush today</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum doloremque expedita illum ullam vitae minus, debitis sit sed eius suscipit!
+        </p>
+        <a href="#">Get Started Today</a>
+        <div class="meta-info">Lorem ipsum dolor sit amet, consectetur.
         </div>
       </div>
-    </div>
-  </section>
-<section id="about-action">
-  <h2>Wicked &amp; Whack, bang bang boo!</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit alias omnis veritatis ipsa necessitatibus voluptatum pariatur, cumque, aperiam id ipsum.</p>
-  <a href="#">Get Started Today</a>
-  </section>
-</section>
-<section id="works">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4 hidden-xs img-container">
-        <img src="assets/images/work.jpg" alt="How It Works" class="img-responsive">
+    </section>
+    <section id="service">
+      <div class="service_container">
+        <div class="tag">Photography</div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>Lorem ipsum dolor.</h1>
+        <div class="author">
+          <img src="assets/images/woman.jpg" alt="Woman">
+          <span>This is a woman.</span>
+        </div>
       </div>
-      <div class="col-sm-8">
-        <h3>How It Works</h3>
+    </section>
+    <section id="faq">
+      <div class="container-fluid">
+        <div class="row">
+          </div>
+          <div class="col-sm-8">
+            <h3>Frequently asked questions</h3>
+            <p class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fugit repellendus reprehenderit incidunt laborum, nesciunt vel non quaerat! Accusamus quis, sit consequuntur velit minima numquam eos impedit perferendis eveniet blanditiis?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe culpa deleniti repudiandae delectus eius, ea veniam ex excepturi nostrum! Sit sed in dolore! Dolor facere, laboriosam soluta quas. Enim sapiente praesentium ut, repudiandae accusantium et sint, deserunt ullam autem sunt!
+            </p>
+          </div>
+          <div class="col-sm-4 hidden-xs img-container">
+            <img src="assets/images/work.jpg" alt="How It Works" class="img-responsive">
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
         <p class="excerpt">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fugit repellendus reprehenderit incidunt laborum, nesciunt vel non quaerat! Accusamus quis, sit consequuntur velit minima numquam eos impedit perferendis eveniet blanditiis.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui debitis mollitia facilis dolorem omnis quisquam sapiente velit cupiditate. Atque, eum, ipsam! Cumque est, dolor, iste eius non distinctio inventore architecto.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe culpa deleniti repudiandae delectus eius, ea veniam ex excepturi nostrum! Sit sed in dolore! Dolor facere, laboriosam soluta quas. Enim sapiente praesentium ut, repudiandae accusantium et sint, deserunt ullam autem sunt.
-        </p>
+          <a href="mailto: hello@example.com">hello@example.com</a>
+        </p>  
       </div>
-    </div>
-  </div>
-</section>
-<section id="works_action">
-  <div class="action-container">
-    <h2>Experience the rush today</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum doloremque expedita illum ullam vitae minus, debitis sit sed eius suscipit!
-    </p>
-    <a href="#">Get Started Today</a>
-    <div class="meta-info">Lorem ipsum dolor sit amet, consectetur.
-    </div>
-  </div>
-</section>
-<section id="service">
-  <div class="service_container">
-    <div class="tag">Photography</div>
-    <h1>Lorem ipsum dolor sit amet.</h1>
-    <h1>Lorem ipsum dolor.</h1>
-    <div class="author">
-      <img src="assets/images/woman.jpg" alt="Woman">
-      <span>This is a woman.</span>
-    </div>
-  </div>
-</section>
-<section id="faq">
-  <div class="container-fluid">
-    <div class="row">
+    </section>
+    <footer>
+      <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit qui animi soluta distinctio deserunt vel aspernatur itaque asperiores reprehenderit sint.
       </div>
-      <div class="col-sm-8">
-        <h3>Frequently asked questions</h3>
-        <p class="excerpt">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fugit repellendus reprehenderit incidunt laborum, nesciunt vel non quaerat! Accusamus quis, sit consequuntur velit minima numquam eos impedit perferendis eveniet blanditiis?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe culpa deleniti repudiandae delectus eius, ea veniam ex excepturi nostrum! Sit sed in dolore! Dolor facere, laboriosam soluta quas. Enim sapiente praesentium ut, repudiandae accusantium et sint, deserunt ullam autem sunt!
-        </p>
-      </div>
-      <div class="col-sm-4 hidden-xs img-container">
-        <img src="assets/images/work.jpg" alt="How It Works" class="img-responsive">
-    </div>
-  </div>
-</section>
-<section id="contact">
-  <div class="container">
-    <h2>Get In Touch</h2>
-    <p class="excerpt">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui debitis mollitia facilis dolorem omnis quisquam sapiente velit cupiditate. Atque, eum, ipsam! Cumque est, dolor, iste eius non distinctio inventore architecto.
-    </p>
-    <p>
-      <a href="mailto: hello@example.com">hello@example.com</a>
-    </p>  
-  </div>
-</section>
-<footer>
-  <div class="container">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit qui animi soluta distinctio deserunt vel aspernatur itaque asperiores reprehenderit sint.
-  </div>
-</footer>
+    </footer>
 </body>
 </html>
