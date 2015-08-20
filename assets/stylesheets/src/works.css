@@ -9,4 +9,31 @@
   font-size: 1.1em;
   margin: 2em 0; }
 
+#works_action {
+  background-image: url("..//images/trees.jpg");
+  background-size: cover;
+  background-position: 50% 65%;
+  text-align: center;
+  padding-top: 10vh;
+  color: #FFFFFF; }
+  #works_action .action-container {
+    background-color: rgba(96, 10, 157, 0.8);
+    padding: 10vh 0 15vh; }
+  #works_action p {
+    max-width: 60vw;
+    margin: 10vh auto;
+    color: #E6B7FD; }
+  #works_action a, #works_action a:hover {
+    background-color: #AE4EF2;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 3em;
+    height: 3em;
+    line-height: 3em;
+    display: inline-block;
+    margin-bottom: 1em;
+    border-radius: 1.5em; }
+  #works_action .meta-info {
+    font-size: 0.7em; }
+
 /*# sourceMappingURL=works.css.map */
