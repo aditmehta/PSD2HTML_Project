@@ -32,4 +32,10 @@ header nav.navbar {
     header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:hover:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited:hover, header nav.navbar.navbar-default .navbar-nav > li > a:link:hover {
       border-bottom: 3px solid #FFF; }
 
+footer {
+  background-color: #2e3b4d;
+  color: #FFFFFF;
+  padding: 20vh 0;
+  text-align: center; }
+
 /*# sourceMappingURL=common.css.map */

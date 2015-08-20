@@ -8,7 +8,8 @@ grunt.initConfig({
           'assets/stylesheets/src/land.css': 'assets/stylesheets/src/land.scss',
           'assets/stylesheets/src/about.css': 'assets/stylesheets/src/about.scss',
           'assets/stylesheets/src/works.css': 'assets/stylesheets/src/works.scss',
-          'assets/stylesheets/src/service.css': 'assets/stylesheets/src/service.scss'
+          'assets/stylesheets/src/service.css': 'assets/stylesheets/src/service.scss',
+          'assets/stylesheets/src/contact.css': 'assets/stylesheets/src/contact.scss'
         }
       }
     },
@@ -33,7 +34,8 @@ grunt.initConfig({
               'assets/stylesheets/src/land.css', 
               'assets/stylesheets/src/about.css',
               'assets/stylesheets/src/works.css',
-              'assets/stylesheets/src/service.css'
+              'assets/stylesheets/src/service.css',
+              'assets/stylesheets/src/contact.css'
             ]
           }
         }

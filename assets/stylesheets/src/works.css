@@ -1,11 +1,11 @@
-#works .img-container {
+#works #faq .img-container {
   padding: 0; }
-#works h3 {
+#works #faq h3 {
   font-size: 1.1em;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 3em; }
-#works p.excerpt {
+#works #faq p.excerpt {
   font-size: 1.1em;
   margin: 2em 0; }
 
